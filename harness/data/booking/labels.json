@@ -1,0 +1,25 @@
+{
+  "header": {
+    "selector": "#HeaderRegion",
+    "source": "agent",
+    "confirmed": false,
+    "alt": [
+      "#HeaderRegion > div > div > div > div > div > div > div > div > div > div > div > div > header > div"
+    ],
+    "note": "alt added by agent: inner header bar; hiding it hides the header"
+  },
+  "footer": {
+    "selector": "#FooterRegion",
+    "source": "agent",
+    "confirmed": false
+  },
+  "popup": {
+    "selector": "body > div:nth-of-type(3) > div > div",
+    "alt": [
+      "body > div:nth-of-type(3)"
+    ],
+    "source": "agent",
+    "confirmed": false,
+    "note": "Genius sign-in modal"
+  }
+}

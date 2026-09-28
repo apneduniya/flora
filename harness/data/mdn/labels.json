@@ -1,0 +1,23 @@
+{
+  "sidebar": {
+    "selector": "#main-sidebar",
+    "alt": [
+      "#main-sidebar > nav"
+    ],
+    "source": "agent",
+    "confirmed": false
+  },
+  "header": {
+    "selector": "body > header",
+    "alt": [
+      "body > header > nav"
+    ],
+    "source": "agent",
+    "confirmed": false
+  },
+  "cart": {
+    "selector": null,
+    "source": "agent",
+    "confirmed": false
+  }
+}

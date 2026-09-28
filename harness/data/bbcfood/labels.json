@@ -1,0 +1,20 @@
+{
+  "header": {
+    "selector": "#header-content > nav",
+    "alt": [
+      "#header-content"
+    ],
+    "source": "agent",
+    "confirmed": false
+  },
+  "footer": {
+    "selector": "#footer-content",
+    "source": "agent",
+    "confirmed": false
+  },
+  "scores": {
+    "selector": null,
+    "source": "agent",
+    "confirmed": false
+  }
+}

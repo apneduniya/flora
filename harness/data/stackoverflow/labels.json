@@ -1,0 +1,22 @@
+{
+  "right": {
+    "selector": "#sidebar",
+    "source": "agent",
+    "confirmed": false
+  },
+  "cookie": {
+    "selector": null,
+    "source": "agent",
+    "confirmed": false,
+    "note": "no cookie banner in the snapshot (live site shows one only in some regions)"
+  },
+  "comments": {
+    "selector": "#question > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1)",
+    "alt": [
+      "#question"
+    ],
+    "source": "agent",
+    "confirmed": false,
+    "note": "question body"
+  }
+}

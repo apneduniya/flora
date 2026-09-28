@@ -1,0 +1,20 @@
+{
+  "nav": {
+    "selector": "body > div > div:nth-of-type(1) > header",
+    "alt": [
+      "#navigation-menu"
+    ],
+    "source": "agent",
+    "confirmed": false
+  },
+  "footer": {
+    "selector": "body > div > div:nth-of-type(1) > footer",
+    "source": "agent",
+    "confirmed": false
+  },
+  "comments": {
+    "selector": null,
+    "source": "agent",
+    "confirmed": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "nav": {
+    "selector": "#globalnav",
+    "source": "agent",
+    "confirmed": false
+  },
+  "footer": {
+    "selector": "#ac-globalfooter",
+    "source": "agent",
+    "confirmed": false
+  },
+  "sidebar": {
+    "selector": null,
+    "source": "agent",
+    "confirmed": false
+  }
+}

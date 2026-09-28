@@ -1,0 +1,20 @@
+{
+  "nav": {
+    "selector": "#navbar-main",
+    "alt": [
+      "#navbar"
+    ],
+    "source": "agent",
+    "confirmed": false
+  },
+  "footer": {
+    "selector": "#navFooter",
+    "source": "agent",
+    "confirmed": false
+  },
+  "comments": {
+    "selector": null,
+    "source": "agent",
+    "confirmed": false
+  }
+}

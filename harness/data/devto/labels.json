@@ -1,0 +1,20 @@
+{
+  "left": {
+    "selector": "#sidebar-wrapper-left",
+    "alt": [
+      "#sidebar-wrapper-left > aside"
+    ],
+    "source": "agent",
+    "confirmed": false
+  },
+  "right": {
+    "selector": "#sidebar-additional",
+    "source": "agent",
+    "confirmed": false
+  },
+  "header": {
+    "selector": "#topbar",
+    "source": "agent",
+    "confirmed": false
+  }
+}

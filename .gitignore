@@ -9,12 +9,10 @@ harness/.jev-cache
 harness/.jev-cache-mock
 extension/build
 
-# Generated harness artefacts (re-create with `pnpm harness snapshot/extract/restyle/report`)
-harness/data/**/*.png
-harness/data/**/a11y.json
-harness/data/**/recon-snapshot.txt
-harness/data/**/recon-title.txt
-harness/report/**/*.png
-harness/report/sheets/
-harness/report/index.html
-harness/report/dogfood/videos/
+# Harness outputs (snapshots, runs, reports): regenerate with the harness, keep only its inputs
+harness/report/
+harness/data/*
+!harness/data/sites.lock.json
+!harness/data/*/
+harness/data/*/*
+!harness/data/*/labels.json

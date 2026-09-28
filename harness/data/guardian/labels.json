@@ -1,0 +1,21 @@
+{
+  "header": {
+    "selector": "#bannerandheader > header",
+    "alt": [
+      "#bannerandheader"
+    ],
+    "source": "agent",
+    "confirmed": false
+  },
+  "consent": {
+    "selector": "body > div:nth-of-type(4)",
+    "source": "agent",
+    "confirmed": false,
+    "note": "Sourcepoint consent overlay"
+  },
+  "footer": {
+    "selector": "body > footer",
+    "source": "agent",
+    "confirmed": false
+  }
+}

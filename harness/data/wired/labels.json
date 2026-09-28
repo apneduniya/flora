@@ -1,0 +1,20 @@
+{
+  "header": {
+    "selector": "#app-root > div > div > header",
+    "source": "agent",
+    "confirmed": false
+  },
+  "footer": {
+    "selector": "#app-root > div > div > div:nth-of-type(15) > div > div > footer",
+    "alt": [
+      "#app-root > div > div > div:nth-of-type(15)"
+    ],
+    "source": "agent",
+    "confirmed": false
+  },
+  "cart": {
+    "selector": null,
+    "source": "agent",
+    "confirmed": false
+  }
+}

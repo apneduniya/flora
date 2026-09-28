@@ -1,0 +1,21 @@
+{
+  "nav": {
+    "selector": "#main-navigation-container",
+    "alt": [
+      "#main-navigation-container > section > nav",
+      "#main-navigation-container > nav"
+    ],
+    "source": "agent",
+    "confirmed": false
+  },
+  "footer": {
+    "selector": "#bbc-footer",
+    "source": "agent",
+    "confirmed": false
+  },
+  "sidebar": {
+    "selector": null,
+    "source": "agent",
+    "confirmed": false
+  }
+}

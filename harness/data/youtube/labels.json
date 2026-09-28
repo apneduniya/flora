@@ -1,0 +1,23 @@
+{
+  "guide": {
+    "selector": "#guide",
+    "source": "agent",
+    "confirmed": false
+  },
+  "header": {
+    "selector": "#masthead",
+    "alt": [
+      "#center",
+      "#center > yt-searchbox"
+    ],
+    "source": "agent",
+    "confirmed": false,
+    "note": "search box or whole top bar"
+  },
+  "comments": {
+    "selector": null,
+    "source": "agent",
+    "confirmed": false,
+    "note": "homepage has no comments"
+  }
+}

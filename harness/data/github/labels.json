@@ -1,0 +1,26 @@
+{
+  "about": {
+    "selector": "#repos-split-pane-content > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div",
+    "alt": [
+      "#repos-split-pane-content > div > div > div > div:nth-of-type(2)",
+      "#repos-split-pane-content > div > div > div > div:nth-of-type(2) > div:nth-of-type(2)",
+      "#repos-split-pane-content > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1)"
+    ],
+    "source": "agent",
+    "confirmed": false,
+    "note": "alt added by agent: the \"About\" section itself is a reasonable reading of \"About sidebar\""
+  },
+  "header": {
+    "selector": "body > div:nth-of-type(1) > div:nth-of-type(2) > react-partial:nth-of-type(3) > div > div > header",
+    "alt": [
+      "body > div:nth-of-type(1) > div:nth-of-type(2)"
+    ],
+    "source": "agent",
+    "confirmed": false
+  },
+  "ads": {
+    "selector": null,
+    "source": "agent",
+    "confirmed": false
+  }
+}

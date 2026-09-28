@@ -1,0 +1,23 @@
+{
+  "header": {
+    "selector": "body > div:nth-of-type(1) > div > div:nth-of-type(2)",
+    "alt": [
+      "body > div:nth-of-type(1) > div > div:nth-of-type(2) > div"
+    ],
+    "source": "agent",
+    "confirmed": false
+  },
+  "consent": {
+    "selector": "#onetrust-banner-sdk",
+    "alt": [
+      "body > div:nth-of-type(1) > div > aside"
+    ],
+    "source": "agent",
+    "confirmed": false
+  },
+  "footer": {
+    "selector": "body > div:nth-of-type(1) > div > footer",
+    "source": "agent",
+    "confirmed": false
+  }
+}

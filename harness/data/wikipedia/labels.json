@@ -1,0 +1,22 @@
+{
+  "sidebar": {
+    "selector": "#content > div:nth-of-type(2) > div > nav:nth-of-type(2)",
+    "source": "agent",
+    "confirmed": false,
+    "note": "right-hand Appearance panel"
+  },
+  "toc": {
+    "selector": "#mw-panel-toc",
+    "alt": [
+      "#vector-toc"
+    ],
+    "source": "agent",
+    "confirmed": false
+  },
+  "video": {
+    "selector": null,
+    "source": "agent",
+    "confirmed": false,
+    "note": "no video on the article"
+  }
+}

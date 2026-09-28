@@ -1,0 +1,21 @@
+{
+  "header": {
+    "selector": "#container > div > div:nth-of-type(1) > div > div > div > div > div > div > div > div > div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div > div > div > div > header",
+    "source": "agent",
+    "confirmed": false,
+    "alt": [
+      "#container > div > div:nth-of-type(1) > div > div > div > div > div > div > div > div > div > div:nth-of-type(1)"
+    ],
+    "note": "alt added by agent: outer fixed top bar that wraps the header; hiding it hides the header"
+  },
+  "footer": {
+    "selector": "#slot-list-container > div > footer",
+    "source": "agent",
+    "confirmed": false
+  },
+  "comments": {
+    "selector": null,
+    "source": "agent",
+    "confirmed": false
+  }
+}
