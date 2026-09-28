@@ -57,12 +57,12 @@ It uses **[Jev](https://docs.typesafe.ai)**, TypeSafe AI's *System One* model. J
 
 ```mermaid
 flowchart LR
-    A["Page"] -->|"read colours, fonts,<br/>layout (in code)"| B["Design tokens +<br/>English summary"]
-    U["'warm sepia<br/>reading mode'"] --> J
-    B --> J{{"Jev: one call,<br/>typed questions"}}
-    C["Catalog: 40 palettes,<br/>8 font pairs"] --> J
-    J -->|"palette, font, spacing,<br/>corners, reading mode, route"| K["Compiler (code)"]
-    K -->|"role-stamped CSS"| P["Restyled page"]
+    A[Web page] -->|read in code| B[Design tokens and summary]
+    U[User prompt] --> J
+    B --> J[Jev: one call, typed questions]
+    C[Catalog: 40 palettes, 8 font pairs] --> J
+    J -->|palette, font, spacing, route| K[Compiler in code]
+    K -->|role-stamped CSS| P[Restyled page]
 ```
 
 1. **Read the page (code).** flora collects the site's real colours, clusters them into roles (background, surface, text, muted, accent, border), and writes an English summary. Jev reads words far better than hex codes.
