@@ -1,0 +1,19 @@
+{
+  "name": "@flora/harness",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "cli": "tsx cli.ts",
+    "typecheck": "tsc -p ."
+  },
+  "dependencies": {
+    "@flora/core": "workspace:*",
+    "esbuild": "^0.28.0",
+    "playwright": "^1.63.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.23.0",
+    "typescript": "^5.9.0"
+  }
+}
