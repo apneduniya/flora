@@ -1,0 +1,8 @@
+packages:
+  - packages/*
+  - harness
+  - extension
+  - server
+onlyBuiltDependencies:
+  - esbuild
+  - spawn-sync

@@ -1,0 +1,15 @@
+{
+  "name": "flora",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.18.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "pnpm --filter @flora/core test",
+    "typecheck": "pnpm -r typecheck",
+    "harness": "pnpm --filter @flora/harness run cli",
+    "dev:ext": "pnpm --parallel --filter @flora/server --filter @flora/extension dev"
+  }
+}

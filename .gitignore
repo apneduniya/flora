@@ -1,0 +1,20 @@
+node_modules
+.env
+.wxt
+.output
+dist
+harness/data/*/page.mhtml
+harness/.jev-cache
+*.log
+harness/.jev-cache-mock
+extension/build
+
+# Generated harness artefacts (re-create with `pnpm harness snapshot/extract/restyle/report`)
+harness/data/**/*.png
+harness/data/**/a11y.json
+harness/data/**/recon-snapshot.txt
+harness/data/**/recon-title.txt
+harness/report/**/*.png
+harness/report/sheets/
+harness/report/index.html
+harness/report/dogfood/videos/
